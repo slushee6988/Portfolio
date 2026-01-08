@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: rgb(224, 208, 167);
+  color: #1f2933;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+  line-height: 1.6;
+}
+
+.work {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.6);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.project p {
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+}
+
+.project a {
+  color: #1f2933;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  color: #2f5d50;
+  opacity: 0.8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-element.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.contact {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+  line-height: 1.6;
+}
+
+.contact a {
+  color: #1f2933;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #2f5d50;
+  opacity: 0.8;
+}
