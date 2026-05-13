@@ -71,10 +71,10 @@ body {
   height: calc(100vh - 80px);
 
   display: flex;
-  justify-content: center;
+  justify-content: top;
   flex-direction: column;
 
-  padding-left: 80px;
+  padding-left: 300px;
 }
 h1 {
   font-size: 5rem;
@@ -89,7 +89,7 @@ p {
 
   color: #000000;
 
-  max-width: 600px;
+  max-width: 900px;
 
   line-height: 1.6;
 }
@@ -112,6 +112,11 @@ p {
   z-index: -1;
 }
 
+.list{
+      font-size: 1.2rem;
+color: #000000;
+
+}
 .shape1 {
   width: 300px;
   height: 300px;
@@ -133,8 +138,8 @@ p {
 
   border-radius: 50%;
 
-  top: 100px;
-  right: 600px;
+  top: 680px;
+  right: 1100px;
 
   opacity: 0.8;
 }
@@ -165,8 +170,8 @@ p {
   right: 500px;
 }
 .shape5 {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 
   background: #c96b5c;
 
@@ -174,7 +179,7 @@ p {
 transform: rotate(180deg);
   position: absolute;
 
-  bottom: 0;
+  bottom: 700;
   right: 740px;
 }
 .shape6 {
@@ -184,9 +189,9 @@ transform: rotate(180deg);
   background: #f5f1e8;
 
   border-radius: 0 100% 0 0;
-transform: rotate(180deg);
+transform: rotate(360deg);
   position: absolute;
 
   bottom: 100px;
-  right: 0px;
+  right: 1700px;
 }
